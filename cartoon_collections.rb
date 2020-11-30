@@ -26,6 +26,7 @@ def find_the_cheese(ingredients)
   element = ingredients.join (" ")
   ingredients.each do |cheese|
   if cheese.include?(element)
+    return element 
   end 
 end
 end 
