@@ -26,7 +26,7 @@ def find_the_cheese(ingredients)
     ingredients.each do |element|
   if cheese_types.include? (element)
      return element 
+   else return "nil"
    end 
-     return "nil"
  end 
 end 
