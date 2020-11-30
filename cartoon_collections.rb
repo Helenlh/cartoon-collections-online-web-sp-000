@@ -27,6 +27,7 @@ def find_the_cheese(ingredients)
     if cheese_types.include? (element)
        return element 
    end 
- end 
+ end
+ return "nil"
  
 end 
