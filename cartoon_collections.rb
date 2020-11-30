@@ -25,10 +25,8 @@ def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
   element = ingredients.join (" ")
   ingredients.each do |cheese|
-  if cheese.include?(ingredients)
+  if cheese.include?(element)
     puts cheese 
   end 
 end 
-
-
 end  
