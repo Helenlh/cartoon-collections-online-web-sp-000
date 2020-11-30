@@ -28,5 +28,5 @@ def find_the_cheese(ingredients)
   if cheese.include?(element)
     puts cheese 
   end 
-end 
+end
 end   
