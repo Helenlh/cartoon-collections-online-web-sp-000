@@ -28,5 +28,5 @@ def find_the_cheese(ingredients)
        return element 
    end 
  end
- return "nil"
+ return nil
 end
