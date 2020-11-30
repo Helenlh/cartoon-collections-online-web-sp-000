@@ -24,9 +24,9 @@ def long_planeteer_calls(words)
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
     ingredients.each do |element|
-  if cheese_types.include? (element)
-     return element 
-   else return "nil"
+    if cheese_types.include? (element)
+       return element 
+    else return "nil"
    end 
  end 
 end 
