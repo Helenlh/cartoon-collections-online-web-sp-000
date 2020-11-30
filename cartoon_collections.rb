@@ -29,6 +29,4 @@ def find_the_cheese(ingredients)
      return cheese 
   end
 end
-
-
 end 
