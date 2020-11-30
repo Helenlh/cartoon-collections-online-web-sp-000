@@ -28,7 +28,7 @@ def find_the_cheese(ingredients)
   if cheese.include? (food)
   # if cheese.include?(element)element is a joined array of ingredients, then you #iterate through the same exact items, then check if one of the items #includes the joined array
     return food 
-  end 
+  end
 end
 
 
